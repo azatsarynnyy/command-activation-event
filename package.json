@@ -1,6 +1,6 @@
 {
-	"name": "command-activation-event",
-	"displayName": "command-activation-event",
+	"name": "command-activation-event2",
+	"displayName": "command-activation-event2",
 	"description": "",
 	"publisher": "test",
 	"version": "0.0.1",
@@ -11,17 +11,9 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.helloWorld2"
 	],
 	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
-			}
-		]
-	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
